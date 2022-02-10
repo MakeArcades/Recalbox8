@@ -1,6 +1,6 @@
 # Recalbox-Bios
 Simple Bios Download
-
+https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/install.sh
 `F4`
 
 then
