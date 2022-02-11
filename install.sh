@@ -5,16 +5,19 @@
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
 cd
-echo "Obteniendo perisos de escritura "
+echo "Obteniendo permisos de escritura"
+echo "Getting Read and Write system"
 mount -o remount,rw /
 mount -o remount,rw /boot
 echo
 
 echo "Limpiando las bios basura que te descargaste de otro lado o las mismas si se te corto internet"
+echo "Cleaning the garbage bios downloaded from other sites or from this site but if you internet shutdown in the process"
+rm ../roms/neogeo/neogeo.zip
 rm ../bios/3do_arcade_saot.bin
 rm ../bios/5200.rom
 rm ../bios/64DD_IPL.bin
-rm ../bios/“7800 BIOS (U).rom”
+rm ../bios/"7800 BIOS (U).rom"
 rm ../bios/apple2gs.rom
 rm ../bios/ATARIBAS.ROM
 rm ../bios/ATARIOSA.ROM
@@ -218,8 +221,9 @@ rm ../bios/vice/SCPU64/scpu-dos-2.04.bin
 rm ../bios/xmil/IPLROM.X1
 rm ../bios/xmil/IPLROM.X1T
 echo "Sistema listo para su correcta instalacion"
+echo "System ready for right installation"
 
-echo "Obteniendo Bios"
+echo "Obteniendo Bios---Getting Bios, be patient"
 echo
 wget "https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/roms/neogeo/neogeo.zip" -P ../roms/neogeo/
 echo
@@ -672,14 +676,15 @@ echo
 wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/xmil/IPLROM.X1T -P ../bios/xmil/
 echo
 sleep 1
-echo "Al fin, Copiadas todas las BIOS"
+echo "Al fin, Copiadas todas las BIOS--Cool we finish"
 echo
 
 
-echo "Reinicia tu Raspberry Pi y Disfruta"
+echo "Reinicia tu Raspberry Pi y Disfruta--Reboot and Enjoy"
 echo "Saludos desde Raspberry Pi Buenos Aires"
 echo
-echo "Esta ventana se destruira en.."
+echo "Esta ventana se destruira en..."
+echo "This window will autodesroy in..."
 echo "3.."
 sleep 3
 echo "2.."
@@ -688,6 +693,7 @@ echo "1.."
 sleep 4
 echo 
 echo "Que esperas, reinicia de una vez"
+echo "What are you waiting, reboot"
 sleep 7
 #reboot
 exit
