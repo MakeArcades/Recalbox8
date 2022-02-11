@@ -5,7 +5,7 @@ Simple Bios Download
 
 then
 
-`F2`
+`ALT+F2`
 
 # Login:
 
