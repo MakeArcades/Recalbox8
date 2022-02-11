@@ -12,7 +12,7 @@ echo
 
 echo "Obteniendo Bios"
 echo
-wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/roms/neogeo/neogeo.zip -P ../roms/neogeo/
+wget "https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/roms/neogeo/neogeo.zip" -P ../roms/neogeo/
 echo
 wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/3do_arcade_saot.bin -P ../bios/
 echo
@@ -20,7 +20,7 @@ wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/64D
 echo
 wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/5200.rom -P ../bios/
 echo
-wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/7800 BIOS (U).rom -P ../bios/
+wget "https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/7800 BIOS (U).rom" -P ../bios/
 echo
 wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/apple2gs.rom -P ../bios/
 echo
