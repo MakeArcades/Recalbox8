@@ -2,7 +2,7 @@
 <p align="center">
 Las Bios Correctas y necesarias para Recalbox-Electron 8, sin archivos innecesarios.
 </p>
-<img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="500" height="600" align="center">
+<img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500" style="vertical-align:middle">
 
 
 # Instalacion facil:
