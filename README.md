@@ -7,7 +7,7 @@ Las Bios Correctas y necesarias para Recalbox-Electron 8, sin archivos innecesar
 
 # Instalacion facil:
 
-Salimos con **F4** dde EmulationStation y vamos a la terminal de Recalbox con `ALT+F2` e iniciamos sesion:
+Salimos con `F4` de EmulationStation y vamos a la terminal de Recalbox con `ALT+F2` e iniciamos sesion:
 
 # Login:
 
