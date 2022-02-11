@@ -11,16 +11,14 @@ mount -o remount,rw /boot
 
 echo "Obteniendo Bios"
 
-wget  https://raw.githubusercontent.com/Luciano2018/Recalb
-ox-Bios/master/roms/neogeo/neogeo.zip -P ../roms/neogeo/
+wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/roms/neogeo/neogeo.zip -P ../roms/neogeo/
 
 
 echo
 echo "Al fin, Copiadas todas las BIOS"
 echo
 echo "Regresando a casa para pasar la escoba"
-#cd ..
-#sudo rm -rf /home/pi/RetroPieBios/
+
 echo "Listo, todo limpio"
 echo "Reinicia tu Raspberry Pi con <sudo reboot> y Disfruta"
 echo "Saludos desde Raspberry Pi Buenos Aires"
