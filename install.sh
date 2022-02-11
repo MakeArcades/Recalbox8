@@ -12,7 +12,8 @@ mount -o remount,rw /boot
 echo "Obteniendo Bios"
 
 wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/roms/neogeo/neogeo.zip -P ../roms/neogeo/
-
+echo
+wget https://raw.githubusercontent.com/Luciano2018/Recalbox-Bios/master/bios/5200.rom -P ../bios/
 
 echo
 echo "Al fin, Copiadas todas las BIOS"
