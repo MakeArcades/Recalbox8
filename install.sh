@@ -4,16 +4,17 @@
 # Por: Raspberry Pi Buenos Aires (https://sites.google.com/view/raspberrypibuenosaires/)
 # License: http://creativecommons.org/licenses/by-sa/4.0/
 ###########################################################################
+cd
 echo "Obteniendo perisos de escritura "
 mount -o remount,rw /
 mount -o remount,rw /boot
 
 echo "Obteniendo Bios"
-wget https://github.com/Luciano2018/Recalbox-Bios/archive/refs/heads/main.zip
 
-unzip main.zip
+wget  https://raw.githubusercontent.com/Luciano2018/Recalb
+ox-Bios/master/roms/neogeo/neogeo.zip -P ../roms/neogeo/
 
-cd Recalbox-Bios-main
+
 echo
 echo "Al fin, Copiadas todas las BIOS"
 echo
