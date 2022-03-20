@@ -1,1 +1,0 @@
-Bios for NeoGeo
