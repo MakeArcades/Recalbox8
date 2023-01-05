@@ -6,6 +6,8 @@ Las Bios Correctas y necesarias para Recalbox-Electron 8, sin archivos innecesar
 <img src="https://raw.githubusercontent.com/Luciano2018/RetroPieBios/master/logov3.png" alt="Raspberry Pi Buenos Aires" width="400" height="500">
 </p>
 
+[![Invitame un café en cafecito.app](https://cdn.cafecito.app/imgs/buttons/button_6.svg)](https://cafecito.app/raspberrypibsas)
+
 # Instalacion facil:
 
 Salimos con `F4` de EmulationStation y vamos a la terminal de Recalbox con `ALT+F2` e iniciamos sesion:
